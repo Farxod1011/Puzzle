@@ -23,7 +23,13 @@
             android:textColor="@color/black"
             android:textSize="30sp"
             android:layout_gravity="center_vertical"/>
-
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_gravity="center_vertical"/>
 
         <ImageView
             android:id="@+id/shuffle"
@@ -44,7 +50,10 @@
         android:orientation="horizontal"
         android:layout_weight="4">
 
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b1"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -57,7 +66,10 @@
             android:onClick="onClick"
             android:tag="00"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b2"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -69,7 +81,10 @@
             android:onClick="onClick"
             android:tag="01"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b3"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -81,7 +96,10 @@
             android:onClick="onClick"
             android:tag="02"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b4"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -94,7 +112,10 @@
             android:tag="03"
             android:textSize="30sp"/>
 
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b5"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -106,7 +127,10 @@
             android:onClick="onClick"
             android:tag="10"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b6"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -118,7 +142,10 @@
             android:onClick="onClick"
             android:tag="11"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b7"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -130,7 +157,10 @@
             android:onClick="onClick"
             android:tag="12"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b8"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -144,7 +174,10 @@
             android:textSize="30sp"/>
 
 
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b9"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -156,7 +189,10 @@
             android:onClick="onClick"
             android:tag="20"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b10"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -168,7 +204,10 @@
             android:onClick="onClick"
             android:tag="21"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b11"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -180,7 +219,10 @@
             android:onClick="onClick"
             android:tag="22"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b12"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -194,7 +236,10 @@
             android:textSize="30sp"/>
 
 
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b13"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -206,7 +251,10 @@
             android:onClick="onClick"
             android:tag="30"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b14"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -218,7 +266,10 @@
             android:onClick="onClick"
             android:tag="31"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b15"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -230,7 +281,10 @@
             android:onClick="onClick"
             android:tag="32"
             android:textSize="30sp"/>
-        <Button
+        <TextView
+            android:background="@drawable/back_layout"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:id="@+id/b16"
             android:layout_width="0dp"
             android:layout_height="0dp"
